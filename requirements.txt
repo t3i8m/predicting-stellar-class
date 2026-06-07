@@ -9,3 +9,6 @@ optuna==4.9.0
 lightgbm==4.6.0
 catboost==1.2.10
 joblib
+streamlit
+plotly
+textwrap
