@@ -1,5 +1,7 @@
 # 🌌 Predicting Stellar Class
 
+<img width="706" height="334" alt="image" src="https://github.com/user-attachments/assets/d7e59478-eb74-4fb3-a945-5ea7b31c43c2" />
+
 Kaggle competition: multiclass classification of astronomical objects into **GALAXY**, **QSO** (quasar), or **STAR** using photometric and spectroscopic data from the Sloan Digital Sky Survey (SDSS).
 
 [![Demo](https://img.shields.io/badge/▶%20Live%20Demo-Streamlit-4a90ff?style=for-the-badge&logo=streamlit&logoColor=white)](https://predicting-stellar-class-bc29lticxwyuonrmdrx4rz.streamlit.app)
@@ -58,6 +60,8 @@ Hyperparameter search done with Optuna TPE sampler.
 ---
 
 ## Streamlit App
+
+<img width="1401" height="474" alt="image" src="https://github.com/user-attachments/assets/afac6693-f367-44f8-b68a-150acd4be9a3" />
 
 Interactive demo that lets you classify any SDSS object in real time.
 
