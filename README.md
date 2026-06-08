@@ -2,7 +2,7 @@
 
 Kaggle competition: multiclass classification of astronomical objects into **GALAXY**, **QSO** (quasar), or **STAR** using photometric and spectroscopic data from the Sloan Digital Sky Survey (SDSS).
 
-[![Demo](https://img.shields.io/badge/▶%20Live%20Demo-Streamlit-4a90ff?style=for-the-badge&logo=streamlit&logoColor=white)](http://localhost:8513)
+[![Demo](https://img.shields.io/badge/▶%20Live%20Demo-Streamlit-4a90ff?style=for-the-badge&logo=streamlit&logoColor=white)](https://predicting-stellar-class-bc29lticxwyuonrmdrx4rz.streamlit.app)
 
 ---
 
