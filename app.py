@@ -545,9 +545,11 @@ def load_models():
 def load_sky_sample():
     try:
         df = pd.read_csv('data/train.csv', usecols=['alpha', 'delta', 'class'])
-        sample = (df.groupby('class', group_keys=False)
-                    .apply(lambda x: x.sample(min(1500, len(x)), random_state=42))
-                    .reset_index(drop=True))
+        parts = []
+        for cls_name in df['class'].unique():
+            subset = df[df['class'] == cls_name]
+            parts.append(subset.sample(min(1500, len(subset)), random_state=42))
+        sample = pd.concat(parts, ignore_index=True)
         # Convert equatorial → galactic coordinates
         ra  = np.radians(sample['alpha'].values)
         dec = np.radians(sample['delta'].values)
